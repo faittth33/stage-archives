@@ -1,60 +1,23 @@
 <!doctype html>
 <html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="浏览 IVE、NMIXX 和 GFRIEND 的官方打歌舞台、年末表演与 MV。">
-  <meta name="theme-color" content="#f8f7fc">
-  <title>女团舞台档案</title>
-  <style>
-    :root {
-      color-scheme: light;
-      font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
-      color: #211a2f;
-      background: #f8f7fc;
-    }
-    * { box-sizing: border-box; }
-    body { margin: 0; }
-    main { width: min(100% - 2rem, 65rem); margin-inline: auto; padding-block: clamp(3rem, 10vw, 7.5rem); }
-    h1 { margin: 0; font-size: clamp(2rem, 5vw, 3.75rem); letter-spacing: -.045em; }
-    p { margin: .7rem 0 0; color: #5a5369; font-size: clamp(1rem, 2vw, 1.125rem); line-height: 1.65; }
-    ul {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
-      gap: 1rem;
-      list-style: none;
-      padding: 0;
-      margin: 2rem 0 0;
-    }
-    a {
-      display: block;
-      overflow: hidden;
-      color: var(--ink);
-      background: white;
-      border: 1px solid #e5e0ed;
-      border-radius: 1rem;
-      text-decoration: none;
-    }
-    a:hover { border-color: var(--ink); }
-    a:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
-    li:nth-child(1) { --ink: #5632a3; }
-    li:nth-child(2) { --ink: #235b91; }
-    li:nth-child(3) { --ink: #3d6a54; }
-    img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: 50% 35%; }
-    strong { display: block; padding: .95rem 1.1rem; font-size: 1.18rem; }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>女团舞台档案</h1>
-    <p>按歌曲查找官方打歌舞台、活动表演和 MV。</p>
-    <nav aria-label="选择团体">
-      <ul>
-        <li><a href="./ive.html#archive"><img src="./ive-group-X7Jng7VY.jpg" alt=""><strong>IVE</strong></a></li>
-        <li><a href="./nmixx.html#archive"><img src="./nmixx-group-CtKT5Yce.jpg" alt=""><strong>NMIXX</strong></a></li>
-        <li><a href="./gfriend.html#archive"><img src="./gfriend-group-D7o-cP4X.jpg" alt=""><strong>GFRIEND</strong></a></li>
-      </ul>
-    </nav>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="浏览 IVE、NMIXX 和 GFRIEND 的官方打歌舞台、活动表演与 MV。">
+    <meta name="theme-color" content="#ebf5ff">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23094ff0'/%3E%3Cpath d='M26 19v26l21-13z' fill='white'/%3E%3C/svg%3E">
+    <title>女团舞台档案</title>
+    <script type="module" crossorigin src="./assets/index-XT0PJL7Y.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C7K7TRTT.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <nav aria-label="选择团体">
+        <a href="./ive.html#archive">IVE</a>
+        <a href="./nmixx.html#archive">NMIXX</a>
+        <a href="./gfriend.html#archive">GFRIEND</a>
+      </nav>
+    </noscript>
+  </body>
 </html>
